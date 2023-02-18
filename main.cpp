@@ -7,7 +7,7 @@ int main() {
 	int h = 450;
 	sf::Clock clock;
 
-	sf::RenderWindow window(sf::VideoMode(w, h), "Ray tracing", sf::Style::Titlebar | sf::Style::Close);
+	sf::RenderWindow window(sf::VideoMode(w, h), "Mandelbrot Set", sf::Style::Titlebar | sf::Style::Close);
 	window.setFramerateLimit(60);
 
 	sf::RenderTexture emptyTexture;
